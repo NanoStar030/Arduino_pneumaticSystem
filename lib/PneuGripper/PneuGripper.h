@@ -19,9 +19,9 @@ class PneuGripper {
         float Ratio(void);  //計算重量感測器斜率
     private:
         HX711 scale;
-        float scaleZero = 0;
-        float scaleRatio = 1;
-        float scaleSampleWeight = 89.05;
+        float scaleZero = 3*304.63;
+        float scaleRatio = 304.63;
+        float scaleSampleWeight = 69.70; //89.05
 
         int DT_Pin;   //重量感測器
         int SCK_Pin;  //重量感測器
