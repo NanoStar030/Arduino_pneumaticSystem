@@ -9,3 +9,11 @@
 #define PIN_HL_PG3 47
 #define PIN_MV_PG4 48
 #define PIN_HL_PG4 49
+
+#define motorPin 39
+#define motorSensorPin 13
+
+#define PIN_KB1 1
+#define PIN_KB2 2
+#define PIN_KB3 3
+#define PIN_KB4 4
