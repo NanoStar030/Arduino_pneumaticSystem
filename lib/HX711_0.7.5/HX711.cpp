@@ -236,7 +236,7 @@ long HX711::read_average(byte times) {
 		// https://github.com/bogde/HX711/issues/73
 		delay(0);
 	}
-	return sum / times;
+	return (sum >> 6) / times;
 }
 
 double HX711::get_value(byte times) {

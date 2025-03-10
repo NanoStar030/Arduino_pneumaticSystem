@@ -13,10 +13,9 @@
  #define LCD12864RSPI_h
  #include <avr/pgmspace.h>
  #include <inttypes.h>
- 
+ #include "enum.h"   
  
  class LCD12864RSPI {
- typedef unsigned char uchar;
  
  
  public:
